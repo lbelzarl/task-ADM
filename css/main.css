@@ -1,0 +1,434 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Tahoma";
+    color: #a6a6a5;
+    font-size: 16px;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrap {
+    width: 1366px;
+    position: relative;
+    padding: 0;
+}
+
+header {
+    height: 80px;
+    border-bottom: 1px solid #248a0f;
+    padding: 0 83px;
+    font-family: "Tahoma";
+}
+
+.pt1 {
+    background-image: url("../img/1.png");
+    height: 526px;
+}
+
+.tt1 {
+    display: inline-block;
+    width: 255px;
+    font-size: 31px;
+    color: rgb(36, 138, 15);
+    line-height: 0.71;
+    position: absolute;
+    left: 392px;
+    top: 22px;
+}
+
+.sl3 {
+  position: absolute;
+  left: 679px;
+}
+
+
+.tt2 {
+    display: inline-block;
+    width: 278px;
+    font-size: 30px;
+    line-height: 0.75;
+    color: rgb(65, 65, 65);
+    position: absolute;
+    text-align: right;
+    left: 1020px;
+    top: 22px;
+}
+
+.layer2 {
+    position: absolute;
+    left: 829px;
+    top: 85px;
+}
+
+.ss {
+    position: absolute;
+    left: 1173px;
+    top: 94px;
+}
+
+.tt3 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 393px;
+    top: 96px;
+}
+
+.tt3__li {
+    display: inline;
+    padding-right: 54px;
+}
+
+.tt4 {
+    display: none;
+    width: 345px;
+    height: 170px;
+    position: absolute;
+    left: 188px;
+    top: 361px;
+}
+
+.activ {
+    display: inline-block;
+}
+
+.tt4-1 {
+    font-size: 36px;
+    font-family: "Arial Narrow";
+    line-height: 0.5; 
+    margin-bottom: 18px; 
+}
+
+.tt4-2 {
+    font-family: "Tahoma";
+    font-size: 14px;
+    color: #414141;
+    line-height: 1.2;
+}
+
+.tt4-3 {
+    margin-top: 15px;
+    font-size: 35px;
+    font-family: "Tahoma";
+    line-height: 0.629;
+    text-align: left;
+}
+
+.zp1 {
+    background-color: #248a0f;
+    position: absolute;
+    top: 554px;
+    width: inherit;
+    height: 53px;
+    box-shadow: 0px 8px 15px -7px;
+}
+
+.zp1-1 {
+    width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Tahoma";
+    font-size: 18px;
+    color: #fff;
+}
+
+input[type="radio"] {
+    display:none;
+}
+
+input[type="radio"]:checked + span {
+    background: #fff;
+    width: 24px;
+    display:inline-block;
+    text-align: center;
+    border-radius: 50%;
+    color: #248a0f;
+}
+
+input[type="radio"] + span {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 24px;
+    display:inline-block;
+    text-align: center;
+}
+
+.pt3 {
+    height: 630px;
+    padding: 97px 0 0 97px; 
+}
+
+.tt5 {
+  font-size: 39px;
+  font-family: "Arial Narrow";
+  color: rgb(36, 138, 15);
+  line-height: 0.564;
+  position: absolute;
+  left: 319px;
+  top: 631px;
+}
+
+.frame {
+    background: url(../img/logo_reno.png) no-repeat 157px 11px;
+    width: 268px;
+    height: 307px;
+    float: left;
+    margin-right: 34px;
+    border: 2px solid #000;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.frame > div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 194px;
+    margin-bottom: 4px;
+}
+
+.frame > span {
+    font-size: 16px;
+    font-family: "Tahoma";
+    color: rgb(78, 78, 78);
+    line-height: 1.375;
+    text-align: center;
+}
+
+.pt3__1 {
+    display: inline-block;
+    float: left;
+    width: 538px;
+    font-size: 19px;
+    font-family: "Tahoma";
+    line-height: 1.368;
+    margin-top: 47px;
+    padding-left: 26px; 
+}
+
+
+.pt3__1-1 {
+    margin-left: 64px;
+}
+
+.pt3__1 > span {
+    color: #248a0f;
+}
+
+.pt3 > img {
+  position: absolute;
+  left: 1082px;
+  top: 1154px;
+}
+
+.f-r {
+    background-image: url("../img/f-r.png");
+    width: 100%;
+    height: 152px;
+    padding: 27px 0 0 110px;
+    font-family: "Arial Narrow";
+}
+
+.f-r__tt {
+    display: inline-block;
+    font-size: 39px;
+    position: absolute;
+    left: 110px;
+    top: 1284px;
+}
+
+.f-r__tel {
+    display: inline-block;
+    font-size: 64px;
+    position: absolute;
+    left: 742px;
+    top: 1263px;
+}
+
+.pt4 {
+    width: 100%;
+    height: 611px;
+}
+
+.pt4__tt1 {
+    font-size: 39px;
+    font-family: "Arial Narrow";
+    position: absolute;
+    left: 273px;
+    top: 1423px;
+}
+
+.pt4__tt2 {
+    font-size: 26px;
+    font-family: "Tahoma";
+    position: absolute;
+    left: 116px;
+    top: 1496px;
+    line-height: 1.38
+}
+
+.pt4__tt2-1 {
+    font-size: 35px;
+    color: #78aac3;
+}
+
+.shina {
+    position: absolute;
+    left: 347px;
+    top: 1517px;
+}
+
+.cars {
+    position: absolute;
+    left: 774px;
+    top: 1509px;
+}
+
+
+.zp2 {
+    background-color: #248a0f;
+    width: 100%;
+    height: 54px;
+    padding-left: 140px;
+    display: flex;
+    align-items: center;
+}
+
+.zp2-1 {
+    font-size: 28px;
+    font-family: "Arial Narrow";
+}
+
+.zp2-2 {
+    font-size: 41px; 
+}
+
+
+.pt5 {
+    width: 100%;
+    height: 324px;
+}
+
+.pt5__tt1 {
+  position: absolute;
+  left: 165px;
+  top: 2140px;
+}
+
+.pt5__tt2 {
+  position: absolute;
+  left: 777px;
+  top: 2140px;
+}
+
+.pt6 {
+    width: 100%;
+    height: 336px;
+    background-image: url(../img/pt6.png);  
+}
+
+.pt7 {
+    width: 100%;
+    height: 590px;
+}
+
+.pt7-tt {
+  font-size: 44px;
+  font-family: "Arial Narrow";
+  position: absolute;
+  left: 189px;
+  top: 2756px;
+}
+
+.map {
+  position: absolute;
+  top: 2837px;
+}
+
+footer {
+    width: 100%;
+    height: 168px;
+}
+
+.logo-f {
+    position: absolute;
+    left: 93px;
+    top: 3345px;
+}
+
+footer > span {
+    font-size: 38px;
+    font-family: "Tahoma";
+    line-height: 0.579;
+    position: absolute;
+    left: 380px;
+    top: 3364px;
+}
+
+.f-tt {
+    color: #248a0f;
+}
+
+.f-tel {
+    font-size: 33px;
+    position: absolute;
+    left: 957px;
+    top: 3361px;
+}
+
+.f-st {
+    font-size: 21px;
+    position: absolute;
+    left: 991px;
+    top: 3405px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.line, .line2 {
+    height: 1px;
+    width: inherit;
+    background: red;
+    position: absolute;
+    top: 3383px;
+    z-index: 100;
+}
+.line2   {
+    top: 3419px;
+}
+.line3, .line4 {
+    min-height: 100%;
+    width: 1px;
+    background: red;
+    position: absolute;
+    z-index: 100;
+    left: 92px;
+    top: 715px;
+}
+.line4 {
+    left: 1162px;
+    top: 715px;
+}
+*/
+
